@@ -52,18 +52,18 @@ Error: Error building site: POSTCSS: failed to transform "css/main.css" (text/cs
 
 See [issue #210](https://github.com/victoriadrake/hugo-theme-introduction/issues/210#issuecomment-645661326) for more information.
 
-## Get the theme (edited)
+## Get the theme
 
 Run from the root of your Hugo site:
 
 ```sh
-git clone https://github.com/llsaboya/hugo-theme-introduction.git themes/introduction
+git clone https://github.com/victoriadrake/hugo-theme-introduction.git themes/introduction
 ```
 
 Alternatively, you can include this repository as a [git submodule](https://git-scm.com/docs/gitsubmodules). This makes it easier to update this theme if you have your Hugo site in git as well:
 
 ```sh
-git submodule add https://github.com/llsaboya/hugo-theme-introduction.git themes/introduction
+git submodule add https://github.com/victoriadrake/hugo-theme-introduction.git themes/introduction
 ```
 
 ## Preview the theme

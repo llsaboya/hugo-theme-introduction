@@ -37,7 +37,7 @@
                                 {{ .Title | markdownify }}
                             </a></h1>
                             {{ if .Params.project_timeframe }}
-                            <p class="fa-xs">{{ .Params.project_timeframe }}</p>
+                            <div class="post-data"><p>{{ .Params.project_timeframe }}</p></div>
                             {{ end }}
                         </div>
                     </div>

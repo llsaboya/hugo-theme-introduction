@@ -1,0 +1,25 @@
+[404_title]
+    other = "404"
+[404_description]
+    other = "Olá! Ou você achou um erro{{ with .Site.Params.email }} (e nesse caso, [por favor, me avise](mailto:{{ . }})) {{ end }} ou alguém está inventando coisas. Essa página não existe..."
+[index_projects_allProjects]
+    other = "Todos os Projetos"
+[index_blog_latestPosts]
+    other = "Últimos Textos"
+[index_blog_allPosts]
+    other = "Todos os Textos"
+[index_blog_readMore]
+    other = "Leia mais"
+[index_currentTime]
+    other = "O meu horário local é"
+[nav_backToSection]
+    other = "Voltar {{ .Title }}"
+[nav_main]
+    other = "Principal"
+[blog_readingTime]
+    one = "Tempo de leitura: {{ .Count }} minuto"
+    other = "Tempo de leitura: {{ .Count }} minutos"
+[blog_shareThis]
+    other = "Comparlihar"
+[footer_text]
+    other = "Tema [**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) para [Hugo](http://gohugo.io/). Feito com [<i class=\"fa fa-heart\"></i> e <i class=\"fa fa-coffee\"></i>](https://victoria.dev) por colaboradores de código-aberto."
