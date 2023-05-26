@@ -11,7 +11,7 @@
         <!-- Include page specific css -->
         {{ block "customCSS" . }}
         {{ end }}
-        {{ if .Page.Store.Get "hasMermaid" }}
+
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
     let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -72,7 +72,6 @@
     };
     mermaid.initialize(mermaidConfig);
 </script>
-      {{ end }}
 
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
